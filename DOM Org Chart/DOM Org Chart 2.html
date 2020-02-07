@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html
+><head
+  ><title>DOM Org Chart 2</title
+
+></head
+
+><body
+  <div id="cal"
+    ><p>Southern Cal is sunny.</p
+    ><p>Northern Cal is rainy.</p
+	><p>Eastern Cal is desert.</p
+  ></div>
+  
+  <div id="ny"
+	><p>Urban NY is crowded.</p
+	><p>Rural NY is sparse.</p
+  ></div>
+
+
+<script>
+var d = document.getElementById("ny");
+var p = d.lastChild;
+var contents = p.innerHTML;
+
+alert(contents);
+</script>
+
+
+</body>
+</html>
